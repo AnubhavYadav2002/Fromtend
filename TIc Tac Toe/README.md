@@ -3,7 +3,7 @@
 
 A simple, interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 
-![Tic-Tac-Toe Game Screenshot](./assets/game-screenshot.png) <!-- Optional: Add a screenshot in the assets folder -->
+
 
 ## Table of Contents
 
@@ -11,9 +11,6 @@ A simple, interactive Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
