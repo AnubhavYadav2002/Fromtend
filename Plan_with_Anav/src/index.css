@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Tour-head{
+    border: 7px dashed rgb(1,17,160);
+    font-size: 3rem;
+    border-radius: 20px;
+    font-weight: bolder;
+  align-items: center;
+    border: dotted  blue;
+    margin: 6vh;
+    padding: 1vh 5vw;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-wrap: wrap;
+   max-width: 1300px;
+   margin: 0 auto;
+   gap: 0.5rem;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1;
+    padding: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.Tour-img{
+    width: 380px;
+    aspect-ratio: 1/1;
+     object-fit: cover;
+} 
+
+.tour-info{
+margin-left:1rem;
+
+}
+
+.Tour-price{
+    color: #1faa59;
+    font-size: 1.3rem;
+
+}
+.Tour-name{
+    font-size: 1.5rem;
+}
+.readmorebtn{
+    color: #12b0e8;
+    cursor: pointer;
+}
+
+.int-btn{
+    margin-top: 18px;
+    margin-left: 2rem;
+    padding: 10px 80px;
+    border: 1px solid #b4161b;
+    cursor: pointer;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #b4161b21;
+  
+}
+.int-btn:hover{
+    background-color: red;
+    color: white;
+    transition: all 0.2s;
+
+}
+
+.NoTour{
+    display: flex;
+    margin-top: 20%;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.refresh-btn{
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
